@@ -7,6 +7,10 @@ header {
     padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #2a607c;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 header h1 {
@@ -18,7 +22,7 @@ header h1 .kerr {
     color: #d9dcd6;
 }
 
-header nav {
+header nav  {
     display: wrap;
     padding-top: 15px;
     margin-right: 20px;
@@ -27,16 +31,21 @@ header nav {
     font-size: 20px;
 }
 
-/*Added hover effect*/
 a:hover {
     color: rgba(157, 157, 157, 0.996)
 }
 
-header nav ul {
+header nav a {
     list-style-type: none;
-}
-
-header nav ul li {
     display: inline-block;
     margin-left: 25px;
+}
+.content{
+    margin-top: 125px;
+}
+#ryan{
+    float:left;
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
 }

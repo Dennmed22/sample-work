@@ -1,17 +1,18 @@
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin: 15px;
 }
 
 header {
-    padding: 20px;
+    padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #2a607c;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
+
 }
 
 header h1 {
@@ -48,15 +49,60 @@ h2 {
 }
 
 section.content {
-    background-color: red;
+    background-color: rgba(38, 3, 3, 0.312);
     height: 100px;
     margin-top: 95px;
     border: 100px;
 }
 
+article h1 {
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+article.about-me {
+    border: 5px solid rgb(14, 1, 1);
+    display: block;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    color: blue;
+    float: right;
+
+}
+
 #ryan {
     float: left;
-    width: 75px;
-    height: 75px;
+    width: 125px;
+    height: 125px;
     margin-right: 10px;
+}
+
+.work-heading {
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 10px;
+}
+
+.work-exp {
+    width: 100%;
+    background: rgb(145, 156, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    height: 200px;
+    padding: 1rem;
+    flex: 1;
+    position: relative;
+
+}
+
+.card-heading {
+    position: absolute;
+    color: aqua;
 }

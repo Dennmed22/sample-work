@@ -61,7 +61,7 @@ article h1 {
     text-decoration-line: underline;
 }
 
-article.about-me {
+article.about-life {
     border: 5px solid rgb(14, 1, 1);
     display: block;
     flex-direction: column;
@@ -69,6 +69,7 @@ article.about-me {
     width: 100%;
     color: blue;
     float: right;
+    background: rgb(145, 156, 255);
 
 }
 
@@ -89,8 +90,9 @@ article.about-me {
 .work-exp {
     width: 100%;
     background: rgb(145, 156, 255);
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
+    border: 5px solid rgb(14, 1, 1);
 }
 
 .card {
@@ -106,3 +108,21 @@ article.about-me {
     position: absolute;
     color: aqua;
 }
+
+.card img {
+    border-radius: 20px;
+    box-shadow: 15px 15px grey;
+}
+
+.contact{
+    border: 5px solid rgb(14, 1, 1);
+    background: rgb(145, 156, 255);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 10px;
+}
+
